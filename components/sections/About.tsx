@@ -2,7 +2,7 @@
 
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { staggerContainer, fadeUp, fadeRight, fadeLeft } from '@/lib/motion'
+import { staggerContainer, fadeUp, fadeRight } from '@/lib/motion'
 import { WA_LINK } from '@/lib/constants'
 import { ArrowRight } from 'lucide-react'
 

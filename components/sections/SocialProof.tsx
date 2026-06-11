@@ -23,7 +23,7 @@ function Counter({ target, suffix, isText }: { target: number; suffix: string; i
       ease: 'easeOut',
       onUpdate: (v) => setCount(Math.round(v)),
     })
-    return controls.stop
+    return () => controls.stop()
   }, [inView, target, isText])
 
   return (
