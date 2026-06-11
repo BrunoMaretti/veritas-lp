@@ -10,13 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         ink: {
-          DEFAULT: '#0D1117',
-          deep: '#080C14',
+          DEFAULT: '#120A2E',
+          deep: '#0A0619',
         },
         navy: {
-          DEFAULT: '#0F1F3D',
-          mid: '#162B55',
-          light: '#1E3870',
+          DEFAULT: '#2B1060',
+          mid: '#3A1878',
+          light: '#4C2590',
         },
         gold: {
           DEFAULT: '#C9A84C',
@@ -29,7 +29,7 @@ const config: Config = {
           dark: '#EDE9E1',
         },
         muted: '#8A8F9E',
-        'border-dark': '#2A3550',
+        'border-dark': '#3D1F6E',
         'border-light': '#E2DDD5',
       },
       fontFamily: {
