@@ -48,7 +48,6 @@ const config: Config = {
       },
       animation: {
         'pulse-ring': 'pulse-ring 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite',
-        'fade-in': 'fade-in 0.6s ease forwards',
         'accordion-down': 'accordion-down 0.22s ease-out',
         'accordion-up': 'accordion-up 0.18s ease-in',
       },
@@ -56,10 +55,6 @@ const config: Config = {
         'pulse-ring': {
           '0%': { transform: 'scale(1)', opacity: '0.6' },
           '100%': { transform: 'scale(1.65)', opacity: '0' },
-        },
-        'fade-in': {
-          from: { opacity: '0', transform: 'translateY(16px)' },
-          to: { opacity: '1', transform: 'translateY(0)' },
         },
         'accordion-down': {
           from: { height: '0', opacity: '0' },
